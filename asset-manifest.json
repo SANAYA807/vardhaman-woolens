@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/vardhaman-woolens/static/css/main.2d30747e.chunk.css",
+    "main.js": "/vardhaman-woolens/static/js/main.81ca6fc5.chunk.js",
+    "main.js.map": "/vardhaman-woolens/static/js/main.81ca6fc5.chunk.js.map",
+    "runtime-main.js": "/vardhaman-woolens/static/js/runtime-main.5a5f2210.js",
+    "runtime-main.js.map": "/vardhaman-woolens/static/js/runtime-main.5a5f2210.js.map",
+    "static/js/2.ca883462.chunk.js": "/vardhaman-woolens/static/js/2.ca883462.chunk.js",
+    "static/js/2.ca883462.chunk.js.map": "/vardhaman-woolens/static/js/2.ca883462.chunk.js.map",
+    "static/js/3.00f820ee.chunk.js": "/vardhaman-woolens/static/js/3.00f820ee.chunk.js",
+    "static/js/3.00f820ee.chunk.js.map": "/vardhaman-woolens/static/js/3.00f820ee.chunk.js.map",
+    "index.html": "/vardhaman-woolens/index.html",
+    "static/css/main.2d30747e.chunk.css.map": "/vardhaman-woolens/static/css/main.2d30747e.chunk.css.map",
+    "static/js/2.ca883462.chunk.js.LICENSE.txt": "/vardhaman-woolens/static/js/2.ca883462.chunk.js.LICENSE.txt",
+    "static/media/footer.css": "/vardhaman-woolens/static/media/banner.fccd7799.jpg",
+    "static/media/knittingDiaries.css": "/vardhaman-woolens/static/media/collection4.b2333c58.jpg",
+    "static/media/collections.css": "/vardhaman-woolens/static/media/collection3.d327b2a6.jpg",
+    "static/media/headerLogo.e88eec4d.png": "/vardhaman-woolens/static/media/headerLogo.e88eec4d.png",
+    "static/media/logo.6ce24c58.svg": "/vardhaman-woolens/static/media/logo.6ce24c58.svg",
+    "static/media/section.8add5498.jpg": "/vardhaman-woolens/static/media/section.8add5498.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a5f2210.js",
+    "static/js/2.ca883462.chunk.js",
+    "static/css/main.2d30747e.chunk.css",
+    "static/js/main.81ca6fc5.chunk.js"
+  ]
+}
