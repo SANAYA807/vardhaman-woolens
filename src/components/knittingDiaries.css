@@ -1,0 +1,75 @@
+.diary>h1{
+    text-align: center;
+    background-color: lightgray;
+    font-weight: 500;
+    line-height: 70px;
+}
+.diary-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4%;
+    grid-gap: 3%;
+    height: fit-content;
+}
+.image1{
+    background-image: url('./images/collection1.jpg');
+}
+.image2{
+    background-image: url('./images/collection2.jpg');
+}
+.image3{
+    background-image: url('./images/collection4.jpg');
+}
+.image1,.image2,.image3{
+    height: 250px;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    padding: 3%;
+}
+.text>h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin:10px 0;
+}
+h5{
+    color: rgb(58, 89, 228);
+}
+
+.diary-card{
+    border-right:1px solid lightgray ;
+    border-left: 1px solid lightgray;
+    overflow-y: hidden;
+}
+
+.text>h4{
+    color: rgb(87, 121, 233);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* media queriess---------------- */
+@media screen and (max-width:670px) {
+    .diary-container{
+        grid-template-columns: 1fr;
+    }
+    
+    
+}
+/* @media screen and (max-width:410px) {
+    .diary-container{
+        padding: ;
+    }
+} */
+@media screen and (max-width:850px) and (min-width:670px) {
+    .diary-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .diary3{
+        grid-column: 1 / span 2;
+        width: 60%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,114 @@
+.footer{
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('./images/banner.jpg');
+    padding: 4%;
+    background-size: cover;
+    
+}
+.upper{
+display: flex;
+list-style: none;
+justify-content: space-between;
+height: 50vh;
+}
+.footer-menu>li>a{
+text-decoration: none;
+color:rgb(88, 88, 88)
+}
+.footer-menu{
+    color: rgb(88, 88, 88);
+}
+.footer-menu h3{
+    color: black;
+    margin-bottom: 10px;
+}
+.icon{
+    background-color:rgb(128, 128, 128) ;
+    color: black;
+    padding: 5px;
+    margin-right: 5px;
+     height: 20px;
+    border-radius: 100%;
+}
+.footerinput{
+    display: flex;
+    margin-top: 5%;
+}
+.footerinput>input{
+    /* margin-top: 20px; */
+    margin-right: 5px;
+    width: 65%;
+    border:1px solid darkgray ;
+    
+     
+    height: 50px;
+    
+}
+.footerinput>button{
+    /* margin-top: 25px; */
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    
+    color:white;
+    font-size: 20px;
+    background-color: rgb(247, 149, 38);
+}
+.lower{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lower-items{
+    color: rgb(88, 88, 88);
+}
+
+.lower-items-card>img{
+    width: 50px;
+}
+.lower-items-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-menu>li>a:hover{
+    
+    color:rgb(36, 36, 36)
+    }
+    .footer-menu>button:hover{
+        background-color: rgb(224, 128, 18);
+    }
+/* media queries.------------------------ */
+@media screen and (max-width:670px) {
+    
+    .upper{
+        flex-direction: column;
+        height: auto;
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+    .lower{
+        flex-direction: column-reverse;
+        font-size: 12px;       
+    }
+    .footer-menu{
+        margin-top: 20px;
+    }
+    .footer-menu h3{
+        
+        margin-bottom: 5px;
+    }
+    
+        
+    
+}
+@media screen and (min-width:670px) and (max-width:1100px){
+    .upper{
+        font-size: 13px;
+    }
+    /* .footer-menu>button{
+        margin-top: 15px;
+    } */
+   .lower {font-size: 12px;}
+}
